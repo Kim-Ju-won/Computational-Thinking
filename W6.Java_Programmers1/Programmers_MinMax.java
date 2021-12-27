@@ -23,7 +23,7 @@ public class GetMinMaxString{
     }
 
     public static void main(String[] args){
-        String str = "1 2 3 4"
+        String str = "1 2 3 4";
         GetMinMaxString minMax = new GetMinMaxString();
         System.out.println("최대값과 최소값은?" + minMax.getMinMaxString(str));
     }

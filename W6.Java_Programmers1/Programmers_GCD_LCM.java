@@ -10,7 +10,7 @@ class TryHelloWorld{
         // GCD 계산
         while(gcd_a*gcd_b!=0){
             if(gcd_a>gcd_b){
-                gcd%gcd_b;
+                gcd%=gcd_b;
             }
             else{
                 gcd_b%=gcd_a;
@@ -30,7 +30,7 @@ class TryHelloWorld{
             gcd=gcd_b;
         }
         answer[0]=gcd;
-        answer[1]=gcd;
+        answer[1]=lcm;
         return answer;
     }
 

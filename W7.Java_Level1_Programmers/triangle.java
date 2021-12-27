@@ -3,9 +3,9 @@ public class PrintTriangle{
         String answer = "";
         for(int i=num-1;i>=0;i--){
             for(int j=i;j<=num;j++){
-                answer+="*"
+                answer+="*";
             }
-            answer+="\n"
+            answer+="\n";
         }
         return answer;
     }
