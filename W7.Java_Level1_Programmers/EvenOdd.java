@@ -7,7 +7,7 @@ public class EvenOdd{
     }
 
     public static main(String[] args){
-        String str= "1 2 3 4"
+        String str= "1 2 3 4";
         EvenOdd evenOrOdd = new EvenOdd();
         System.out.println("결과: "+evenOrOdd.evenOdd(3));
         System.out.println("결과: "+evenOrOdd.evenOdd(2));

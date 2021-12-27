@@ -1,6 +1,6 @@
 class SuMatrix{
     public int[][] sumMatrix(int[][] A, int[][] B){
-        int[][] answer = new int[A.length][A[0].length];//길이만큼 초기화
+        int[][] answer = new int[A.length][A[0].length];//길이만큼 초기화 
         for(int i = 0; i < answer.length; i++){
             for(int j = 0; j <answer[i].length ; j++){
                 answer[i][j]=A[i][j]+B[i][j];
